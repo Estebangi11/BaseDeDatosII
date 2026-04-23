@@ -190,28 +190,28 @@ function initTypewriter() {
 const PROJECTS = [
   {
     week: 'Semana 1',
-    title: 'Arquitectura de Web',
+    title: 'Introduccion a la arquitectura de BD',
     desc: 'Landing page estática con HTML y CSS puro, enfocada en presentación personal y diseño responsive.',
     techs: ['HTML', 'CSS', 'JavaScript'],
     cat: 'frontend',
   },
   {
     week: 'Semana 2',
-    title: 'Modelado de Datos​',
+    title: 'Gestores de Base de Datos',
     desc: '.Es el proceso que se aplica para crear una representación grafica de la visión que tienen los usuarios de los datos​',
     techs: ['DIA', 'MySql'],
     cat: ' ',
   },
   {
     week: 'Semana 3',
-    title: '',
+    title: 'Diseño de Arquitectura de Bases de Datos',
     desc: '.',
     techs: ['', '', ''],
     cat: ' ',
   },
   {
     week: 'Semana 4',
-    title: '',
+    title: 'Tipos de Arquitectura de Base de Datos',
     desc: '.',
     techs: ['', '', ''],
     cat: ' ',
