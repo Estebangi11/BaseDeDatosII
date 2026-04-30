@@ -1096,7 +1096,7 @@ async function loadFilesFromStorage(semanaFolder) {
     return
   }
 
-  container.innerHTML = data.map(f => {
+container.innerHTML = data.filter(f => f.name !== '.emptyFolderPlaceholder').map(f => {
     const { data: urlData } = supabase.storage.from('Semanas').getPublicUrl(`${semanaFolder}/${f.name}`)
     const ext = f.name.split('.').pop().toUpperCase()
     const kb = f.metadata?.size ? (f.metadata.size / 1024).toFixed(1) + ' KB' : ''
