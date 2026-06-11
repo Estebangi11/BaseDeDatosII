@@ -2615,10 +2615,10 @@ footer {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--r-xl);
-  width: 90vw;
-  max-width: 900px;
-  height: 85vh;
-  max-height: 850px;
+  width: 96vw;
+  max-width: 1200px;
+  height: 92vh;
+  max-height: 92vh;
   display: flex;
   flex-direction: column;
   position: relative;
